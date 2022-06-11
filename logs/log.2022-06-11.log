@@ -1,0 +1,96 @@
+[2022-06-11T14:07:18.507] [ERROR] error - Error: Cannot find module './lib/encoding'
+Require stack:
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/application.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/app.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1020:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:890:27)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at loadModule (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:108:16)
+    at Negotiator.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:56:28)
+    at Accepts.encoding.Accepts.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js:143:26)
+    at Object.acceptsEncodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js:573:24)
+    at Object.proto.<computed> [as acceptsEncodings] (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/delegates/index.js:40:31)
+    at send (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-send/index.js:88:11)
+    at serve (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-static/index.js:44:24)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+[2022-06-11T14:07:21.321] [ERROR] error - Error: Cannot find module './lib/encoding'
+Require stack:
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/application.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/app.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1020:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:890:27)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at loadModule (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:108:16)
+    at Negotiator.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:56:28)
+    at Accepts.encoding.Accepts.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js:143:26)
+    at Object.acceptsEncodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js:573:24)
+    at Object.proto.<computed> [as acceptsEncodings] (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/delegates/index.js:40:31)
+    at send (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-send/index.js:88:11)
+    at serve (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-static/index.js:44:24)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+[2022-06-11T14:08:33.490] [ERROR] error - Error: Cannot find module './lib/encoding'
+Require stack:
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/application.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/app.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1020:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:890:27)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at loadModule (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:108:16)
+    at Negotiator.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:56:28)
+    at Accepts.encoding.Accepts.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js:143:26)
+    at Object.acceptsEncodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js:573:24)
+    at Object.proto.<computed> [as acceptsEncodings] (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/delegates/index.js:40:31)
+    at send (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-send/index.js:88:11)
+    at serve (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-static/index.js:44:24)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+[2022-06-11T14:08:35.703] [ERROR] error - Error: Cannot find module './lib/encoding'
+Require stack:
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/application.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/app.js
+- /Users/bytedance/Documents/myCode/software/wise-eye-admin/server/bin/www
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:1020:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:890:27)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at loadModule (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:108:16)
+    at Negotiator.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/negotiator/index.js:56:28)
+    at Accepts.encoding.Accepts.encodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/accepts/index.js:143:26)
+    at Object.acceptsEncodings (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/lib/request.js:573:24)
+    at Object.proto.<computed> [as acceptsEncodings] (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/delegates/index.js:40:31)
+    at send (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-send/index.js:88:11)
+    at serve (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-static/index.js:44:24)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at logger (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-logger/index.js:67:13)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at filter (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa-json/index.js:25:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-admin/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
