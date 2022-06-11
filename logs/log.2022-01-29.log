@@ -1,0 +1,380 @@
+[2022-01-29T15:26:28.766] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T15:26:29.679] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T15:26:30.290] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T15:26:30.462] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T15:27:53.114] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T15:27:53.354] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T15:27:53.855] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T15:27:54.021] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:11.574] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:11.585] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:13.987] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:13.994] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:36.846] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:37.805] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:38.564] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:38.739] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:38.817] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:38.924] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:39.112] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:39.490] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:40.007] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:40.253] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:40.261] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:40.442] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:40.644] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:40.863] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:41.050] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:41.458] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:41.974] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:44:42.196] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:45:54.435] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:45:54.448] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:45:56.992] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:45:56.998] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:45:58.824] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T19:45:58.830] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:47:25.214] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:47:33.866] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:47:45.861] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:47:48.096] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:47:53.677] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:48:27.073] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:51:11.783] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:53:23.116] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:54:31.606] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T20:55:18.251] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T21:11:34.367] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-29T21:18:47.430] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:42:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)

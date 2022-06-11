@@ -1,0 +1,13 @@
+[2022-01-10T16:34:30.767] [ERROR] error - TypeError: JSON.stringfy is not a function
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:36:27
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at filter (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-json\index.js:25:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)

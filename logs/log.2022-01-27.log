@@ -1,0 +1,28 @@
+[2022-01-27T15:31:59.180] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:41:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-27T15:32:01.125] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:41:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-27T15:32:09.690] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:41:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-27T15:32:21.914] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:41:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)

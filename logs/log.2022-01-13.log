@@ -1,0 +1,17 @@
+[2022-01-13T18:04:54.050] [ERROR] error - JsonWebTokenError: invalid signature
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\24138\Desktop\项目\manger-server\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\24138\Desktop\项目\manger-server\node_modules\jsonwebtoken\verify.js:94:10)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:47:23
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:39:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)

@@ -1,0 +1,149 @@
+[2022-01-30T09:47:18.389] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:43:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-30T09:47:21.053] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:43:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-30T09:47:49.081] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:43:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-30T09:47:57.024] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:66:26)
+    at async C:\Users\24138\Desktop\项目\manger-server\app.js:43:3
+    at async serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:9)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-30T10:04:00.840] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:43:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-30T10:21:18.702] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:42:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-30T10:21:19.601] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\lib\context.js:97:11)
+    at jwt (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-jwt\lib\index.js:23:22)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-unless\index.js:29:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:42:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at async logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:7)
+    at async bodyParser (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-bodyparser\index.js:95:5)
+[2022-01-30T21:39:54.669] [ERROR] error - ReferenceError: userName is not defined
+    at C:\Users\24138\Desktop\项目\manger-server\routes\users.js:87:6
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:39:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2022-01-30T21:39:55.454] [ERROR] error - ReferenceError: userName is not defined
+    at C:\Users\24138\Desktop\项目\manger-server\routes\users.js:87:6
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:39:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2022-01-30T21:39:56.118] [ERROR] error - ReferenceError: userName is not defined
+    at C:\Users\24138\Desktop\项目\manger-server\routes\users.js:87:6
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:39:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2022-01-30T21:39:56.308] [ERROR] error - ReferenceError: userName is not defined
+    at C:\Users\24138\Desktop\项目\manger-server\routes\users.js:87:6
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:39:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+[2022-01-30T21:39:56.400] [ERROR] error - ReferenceError: userName is not defined
+    at C:\Users\24138\Desktop\项目\manger-server\routes\users.js:87:6
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\24138\Desktop\项目\manger-server\app.js:39:9
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at views (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-views\src\index.js:91:12)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at serve (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-static\index.js:53:15)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at logger (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa-logger\index.js:67:13)
+    at dispatch (C:\Users\24138\Desktop\项目\manger-server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
