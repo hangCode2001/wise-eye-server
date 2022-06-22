@@ -6,7 +6,7 @@ let mysql = require("mysql");
 const db_config = {
   host: "120.27.132.13",
   user: "wise-eye",
-  password: "123456",
+  password: "wei123.",
   port: "3306",
   database: "wise-eye",
 };
