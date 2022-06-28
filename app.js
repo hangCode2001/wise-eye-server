@@ -8,11 +8,13 @@ const logger = require("koa-logger");
 const log4js = require("./utils/log4j"); //控制日志信息输送
 const router = require("koa-router")();
 const user = require("./routes/user");
+const article = require("./routes/article");
+const jwtCheck = require("./middleware/jwt-check");
 
 // error handler
 onerror(app);
 
-let connection = require("./config/db");
+let { connection } = require("./config/db");
 
 //开始链接数据库
 connection.connect(function (err) {
@@ -22,6 +24,8 @@ connection.connect(function (err) {
     console.log("mysql连接成功!");
   }
 });
+
+app.use(jwtCheck());
 
 //获取前端post提交的数据
 app.use(
@@ -58,6 +62,7 @@ router.prefix("/api"); //设置路由前缀
 
 //allowedMethods响应 options 方法, 告诉它所支持的请求方法 / CORS 中的预检请求
 router.use(user.routes(), user.allowedMethods());
+router.use(article.routes(), article.allowedMethods());
 
 app.use(router.routes(), router.allowedMethods());
 

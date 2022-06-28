@@ -10,9 +10,22 @@ const db_config = {
   port: "3306",
   database: "wise-eye",
 };
-let connect = mysql.createConnection(db_config);
-
-module.exports = connect;
+let connection = mysql.createConnection(db_config);
+const query = (sql) => {
+  return new Promise((resolve, reject) => {
+    connection.query(sql, function (error, results) {
+      if (error) {
+        reject(error);
+      } else {
+        resolve(results);
+      }
+    });
+  });
+};
+module.exports = {
+  connection,
+  query,
+};
 /*  //基本的查询语句
  let sqlQuery="select * from test";
  connect.query(sqlQuery,function(err,result){
