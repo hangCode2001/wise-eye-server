@@ -1,0 +1,118 @@
+[2022-06-29T21:46:13.405] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T21:47:05.377] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T21:48:10.907] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T21:48:23.719] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T21:54:43.212] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T21:56:37.577] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T22:45:54.919] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T22:46:08.329] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-unless/index.js:29:12
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T22:48:13.613] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T22:54:50.786] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)
+[2022-06-29T22:55:57.716] [ERROR] error - UnauthorizedError: Authentication Error
+    at Object.throw (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/context.js:97:11)
+    at jwt (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-jwt/lib/index.js:23:22)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/node_modules/koa-compose/index.js:34:12
+    at Application.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:168:12)
+    at Server.handleRequest (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa/lib/application.js:150:19)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17)

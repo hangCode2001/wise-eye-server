@@ -1450,7 +1450,7 @@ koa-json@^2.0.2:
 
 koa-jwt@^4.0.3:
   version "4.0.3"
-  resolved "https://registry.npmmirror.com/koa-jwt/-/koa-jwt-4.0.3.tgz"
+  resolved "https://registry.npmmirror.com/koa-jwt/-/koa-jwt-4.0.3.tgz#1ac8e69b538f7c23a1d7bc1aa5ee3ca12ac8c90d"
   integrity sha512-NCdkEZ9cTNLdfxlwlJOFpKIjIZAXgo3zNZjvAVXRVyFkgGFxn7areoqmIfu/tqel4V7j5a7c6b0ago8IoZJUyg==
   dependencies:
     jsonwebtoken "^8.5.1"

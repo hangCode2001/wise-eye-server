@@ -1,5 +1,7 @@
 const jwtKey = "wise-eye-jwt-key";
-
-module.exports = {
+const unlessApi = [/login/g, /register/];
+const config = {
   jwtKey,
+  unlessApi,
 };
+module.exports = config;

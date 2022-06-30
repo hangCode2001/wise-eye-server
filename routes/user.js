@@ -5,7 +5,7 @@ const router = require("koa-router")();
 const util = require("../utils/util");
 const jwt = require("jsonwebtoken");
 const { query } = require("../config/db");
-const { jwtKey } = require("../config/index");
+const config = require("../config/index");
 
 router.prefix("/user");
 
@@ -21,11 +21,10 @@ router.post("/login", async (ctx) => {
         name: username,
         id: results[0].id,
       };
-      console.log("到这一步");
-      const token = jwt.sign(userToken, jwtKey, { expiresIn: "2h" });
+      const token = jwt.sign(userToken, config.jwtKey, { expiresIn: 60 * 60 });
       ctx.body = util.success({ token }, "用户注册成功");
     } else {
-      ctx.body = util.USER_LOGIN_ERROR("账号或密码错误");
+      ctx.body = util.userLoginFail("账号或密码错误");
     }
   } catch (error) {
     ctx.body = util.fail(error.msg);

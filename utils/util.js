@@ -2,8 +2,6 @@
  * 通用工具函数
  */
 const log4js = require("./log4j");
-const jwt = require("jsonwebtoken");
-const { jwtKey } = require("../config/index");
 const CODE = {
   SUCCESS: 200,
   PARAM_ERROR: 10001, // 参数错误
@@ -46,7 +44,23 @@ module.exports = {
       msg,
     };
   },
-  USER_LOGIN_ERROR(msg = "", code = CODE.USER_ACCOUNT_ERROR, data = "") {
+  userLoginFail(msg = "", code = CODE.USER_ACCOUNT_ERROR, data = "") {
+    log4js.debug(msg);
+    return {
+      code,
+      data,
+      msg,
+    };
+  },
+  userLoginError(msg = "", code = CODE.USER_LOGIN_ERROR, data = "") {
+    log4js.debug(msg);
+    return {
+      code,
+      data,
+      msg,
+    };
+  },
+  authFail(msg = "", code = CODE.AUTH_ERROR, data = "") {
     log4js.debug(msg);
     return {
       code,

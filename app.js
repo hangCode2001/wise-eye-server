@@ -10,7 +10,7 @@ const router = require("koa-router")();
 const user = require("./routes/user");
 const article = require("./routes/article");
 const jwtCheck = require("./middleware/jwt-check");
-
+const cors = require("./middleware/cors");
 // error handler
 onerror(app);
 
@@ -25,6 +25,9 @@ connection.connect(function (err) {
   }
 });
 
+app.use(cors);
+
+// jwt 验证
 app.use(jwtCheck());
 
 //获取前端post提交的数据
@@ -44,19 +47,6 @@ app.use(
     extension: "pug",
   })
 );
-app.use(async (ctx, next) => {
-  ctx.set("Access-Control-Allow-Origin", "*");
-  ctx.set(
-    "Access-Control-Allow-Headers",
-    "Content-Type,Content-Length,Authorization,Accept,X-Requested-With"
-  );
-  ctx.set("Access-Control-Allow-Methods", "PUT,POST,GET,DELETE,OPTIONS");
-  if (ctx.method == "OPTIONS") {
-    ctx.body = 200;
-  } else {
-    await next();
-  }
-});
 
 router.prefix("/api"); //设置路由前缀
 

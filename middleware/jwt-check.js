@@ -1,20 +1,30 @@
 const jwt = require("jsonwebtoken");
-const { jwtKey } = require("../config/index");
-const { decoded } = require("../utils/util");
+const config = require("../config/index");
+const util = require("../utils/util");
 
 /**
  * jwt验证的中间价
  */
 module.exports = function () {
   return async function (ctx, next) {
+    for (const value of config.unlessApi) {
+      if (value.test(ctx.url)) {
+        await next();
+        return;
+      }
+    }
     try {
       // 获取jwt
       const token = ctx.header.authorization;
       console.log("token", token);
-      if (token) {
+      console.log("ctx.url", ctx.url);
+      if (!token) {
+        // ctx.body = util.userLoginError("用户未登录");
+        throw new Error("用户未登录");
+      } else {
         try {
           // 解密payload，获取用户名和ID
-          let payload = await jwt.verify(token, jwtKey);
+          let payload = await jwt.verify(token, config.jwtKey);
           console.log("payload", payload);
           ctx.user = {
             name: payload.name,
@@ -26,17 +36,18 @@ module.exports = function () {
       }
       await next();
     } catch (err) {
-      if (err.status === 401) {
+      console.log("err", err.message);
+      if (err.message === "用户未登录") {
         ctx.status = 401;
-        ctx.body = {
-          success: 0,
-          message: "认证失败",
-        };
+        ctx.body = util.userLoginError(err.message);
+      } else if (err.status === 401) {
+        ctx.status = 401;
+        ctx.body = util.authFail("认证失败或TOKEN过期");
       } else {
-        err.status = 404;
+        ctx.status = 404;
         ctx.body = {
           success: 0,
-          message: "404",
+          message: err.message,
         };
       }
     }
