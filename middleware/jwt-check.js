@@ -16,7 +16,7 @@ module.exports = function () {
     try {
       // 获取jwt
       const token = ctx.header.authorization;
-      console.log("token", token);
+      // console.log("token", token);
       console.log("ctx.url", ctx.url);
       if (!token) {
         // ctx.body = util.userLoginError("用户未登录");
@@ -24,8 +24,11 @@ module.exports = function () {
       } else {
         try {
           // 解密payload，获取用户名和ID
-          let payload = await jwt.verify(token, config.jwtKey);
+          const token2 = token.split(" ")[1];
+          console.log("token2", token2);
+          let payload = await jwt.verify(token2, config.jwtKey);
           console.log("payload", payload);
+          console.log("访问", payload.name);
           ctx.user = {
             name: payload.name,
             id: payload.id,

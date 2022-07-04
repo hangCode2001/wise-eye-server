@@ -22,7 +22,7 @@ router.post("/login", async (ctx) => {
         id: results[0].id,
       };
       const token = jwt.sign(userToken, config.jwtKey, { expiresIn: 60 * 60 });
-      ctx.body = util.success({ token }, "用户注册成功");
+      ctx.body = util.success({ token }, "用户登陆成功");
     } else {
       ctx.body = util.userLoginFail("账号或密码错误");
     }
