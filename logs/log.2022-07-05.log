@@ -1,0 +1,405 @@
+[2022-07-05T09:26:11.682] [ERROR] error - Error: read ETIMEDOUT
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:15:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:21:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T09:26:14.024] [ERROR] error - Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:15:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:21:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T09:26:34.483] [ERROR] error - Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:15:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:21:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T09:26:42.553] [ERROR] error - Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:15:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:21:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T09:26:52.562] [ERROR] error - Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:15:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:21:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T09:26:56.610] [ERROR] error - Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:15:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:21:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T10:11:51.243] [ERROR] error - Error: read EHOSTUNREACH
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:22:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T10:11:51.244] [ERROR] error - Error: read EHOSTUNREACH
+    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:22:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T10:12:29.141] [ERROR] error - Error: Cannot enqueue Query after fatal error.
+    at Protocol._validateEnqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:212:16)
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:138:13)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:22:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T10:12:47.773] [ERROR] error - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=7' at line 1
+    at Query.Sequence._packetToError (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:22:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T10:13:04.113] [ERROR] error - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1
+    at Query.Sequence._packetToError (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:22:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T10:13:15.345] [ERROR] error - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1
+    at Query.Sequence._packetToError (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:22:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T10:13:45.180] [ERROR] error - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1
+    at Query.Sequence._packetToError (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:22:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T10:14:14.083] [ERROR] error - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1
+    at Query.Sequence._packetToError (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:23:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T10:14:30.804] [ERROR] error - Error: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=1' at line 1
+    at Query.Sequence._packetToError (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:23:23
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+[2022-07-05T22:05:21.436] [ERROR] error - ReferenceError: category_id is not defined
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:45:30
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T22:05:31.616] [ERROR] error - ReferenceError: category_id is not defined
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:45:30
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-05T22:18:53.522] [ERROR] error - Error: ER_BAD_FIELD_ERROR: Unknown column 's.title' in 'field list'
+    at Query.Sequence._packetToError (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:390:28)
+    at addChunk (node:internal/streams/readable:315:12)
+    at readableAddChunk (node:internal/streams/readable:289:9)
+    at Socket.Readable.push (node:internal/streams/readable:228:10)
+    at TCP.onStreamRead (node:internal/stream_base_commons:199:23)
+    --------------------
+    at Protocol._enqueue (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Connection.query (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/mysql/lib/Connection.js:198:25)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:17:16
+    at new Promise (<anonymous>)
+    at query (/Users/bytedance/Documents/myCode/software/wise-eye-server/config/db.js:16:10)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:49:22
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async logger (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-logger/index.js:67:7)
+    at async bodyParser (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-bodyparser/index.js:95:5)
+    at async /Users/bytedance/Documents/myCode/software/wise-eye-server/middleware/jwt-check.js:12:9
+    at async module.exports (/Users/bytedance/Documents/myCode/software/wise-eye-server/middleware/cors.js:11:5)

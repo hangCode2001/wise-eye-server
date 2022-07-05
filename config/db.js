@@ -9,6 +9,7 @@ const db_config = {
   password: "wei123.",
   port: "3306",
   database: "wise-eye",
+  useConnectionPooling: true,
 };
 let connection = mysql.createConnection(db_config);
 const query = (sql) => {

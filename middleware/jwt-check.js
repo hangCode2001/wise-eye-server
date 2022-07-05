@@ -24,9 +24,8 @@ module.exports = function () {
       } else {
         try {
           // 解密payload，获取用户名和ID
-          const token2 = token.split(" ")[1];
-          console.log("token2", token2);
-          let payload = await jwt.verify(token2, config.jwtKey);
+          console.log("token2", token);
+          let payload = await jwt.verify(token, config.jwtKey);
           console.log("payload", payload);
           console.log("访问", payload.name);
           ctx.user = {
