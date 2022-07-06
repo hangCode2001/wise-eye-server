@@ -42,4 +42,19 @@ router.post("/register", async (ctx) => {
     ctx.body = util.fail(error.msg);
   }
 });
+// 记录点击日志
+router.post("/addClickLog", async (ctx) => {
+  try {
+    console.log(ctx.request.body);
+    const { click_article_id, click_timestamp } = ctx.request.body;
+    const user_id = ctx.user.id;
+    console.log("ctx.user", ctx.user);
+    let sql = `insert into clickLog (user_id,click_article_id,click_timestamp) values(${user_id},${click_article_id},${click_timestamp})`;
+    await query(sql);
+    // console.log("results", results);
+    ctx.body = util.success({}, "加入click_log成功");
+  } catch (error) {
+    ctx.body = util.fail(error.msg);
+  }
+});
 module.exports = router;

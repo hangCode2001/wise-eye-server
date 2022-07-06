@@ -22,27 +22,24 @@ module.exports = function () {
         // ctx.body = util.userLoginError("用户未登录");
         throw new Error("用户未登录");
       } else {
-        try {
-          // 解密payload，获取用户名和ID
-          console.log("token2", token);
-          let payload = await jwt.verify(token, config.jwtKey);
-          console.log("payload", payload);
-          console.log("访问", payload.name);
-          ctx.user = {
-            name: payload.name,
-            id: payload.id,
-          };
-        } catch (err) {
-          console.log("token verify fail: ", err);
-        }
+        // 解密payload，获取用户名和ID
+        console.log("token2", token);
+        let payload = await jwt.verify(token, config.jwtKey);
+        console.log("payload", payload);
+        console.log("访问", payload.name);
+        ctx.user = {
+          name: payload.name,
+          id: payload.id,
+        };
       }
       await next();
     } catch (err) {
-      console.log("err", err.message);
+      console.log("errstatus", err.message);
+      console.dir(err);
       if (err.message === "用户未登录") {
         ctx.status = 401;
         ctx.body = util.userLoginError(err.message);
-      } else if (err.status === 401) {
+      } else if (err.status === 401 || err.message.includes("jwt expired")) {
         ctx.status = 401;
         ctx.body = util.authFail("认证失败或TOKEN过期");
       } else {
