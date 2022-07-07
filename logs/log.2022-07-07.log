@@ -1,0 +1,65 @@
+[2022-07-07T08:48:59.199] [ERROR] error - ReferenceError: list is not defined
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:67:5
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+[2022-07-07T08:49:54.585] [ERROR] error - Error: Command failed: node ../reptile/index.js
+node:internal/modules/cjs/loader:949
+  throw err;
+  ^
+
+Error: Cannot find module '/Users/bytedance/Documents/myCode/software/reptile/index.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:946:15)
+    at Module._load (node:internal/modules/cjs/loader:787:27)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:77:12)
+    at node:internal/main/run_main_module:17:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v18.4.0
+
+    at checkExecSyncError (node:child_process:820:11)
+    at execSync (node:child_process:891:15)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:65:3
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+[2022-07-07T09:37:06.286] [ERROR] error - ReferenceError: res is not defined
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/routes/admin.js:74:14
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at allowedMethods (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:407:12)
+    at dispatch (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-compose/index.js:45:18)
+    at /Users/bytedance/Documents/myCode/software/wise-eye-server/node_modules/koa-router/lib/router.js:346:16

@@ -1,6 +1,6 @@
 const jwtKey = "wise-eye-jwt-key";
 // 不进行jwt校验的URL
-const unlessApi = [/login/g, /register/, /admin/];
+const unlessApi = [/login/g, /register/, /admin/, /ai/];
 
 /**
  * 移动云密钥相关

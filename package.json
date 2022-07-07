@@ -6,12 +6,15 @@
     "start": "node bin/www",
     "dev": "./node_modules/.bin/nodemon bin/www",
     "prd": "pm2 start bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "reptile": "pm2 start ./reptile/index.js"
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.12",
     "crypto-js": "^4.1.1",
     "debug": "^4.1.1",
+    "fs-readfile-promise": "^3.0.1",
     "js-base64": "^3.7.2",
     "jsonwebtoken": "^8.5.1",
     "koa": "^2.7.0",
@@ -26,7 +29,9 @@
     "koa-views": "^6.2.0",
     "mongoose": "^6.1.5",
     "mysql": "^2.18.1",
-    "pug": "^2.0.3"
+    "node-schedule": "^2.1.0",
+    "pug": "^2.0.3",
+    "redis": "^4.2.0"
   },
   "devDependencies": {
     "log4js": "^6.3.0",

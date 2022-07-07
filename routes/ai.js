@@ -10,8 +10,6 @@ router.post("/tts", async (ctx) => {
     console.log(" text", text);
     const res = await textToVoice(text);
     console.log("res", res);
-    // console.log("这一步");
-    // ctx.status = 200;
     console.dir(res);
     ctx.body = res;
     ctx.set("Content-Type", "blob");

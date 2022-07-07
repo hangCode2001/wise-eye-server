@@ -4,7 +4,10 @@
 const router = require("koa-router")();
 const util = require("../utils/util");
 const { query } = require("../config/db");
-
+const fs = require("fs");
+const path = require("path");
+const readFile = require("fs-readfile-promise");
+const dirInput = path.join(__dirname, "../reptile/article.json");
 router.prefix("/admin");
 
 // 获取新闻
@@ -55,6 +58,24 @@ router.post("/getLickLog", async (ctx) => {
     list,
   };
   ctx.body = res;
+});
+
+// 获取新闻
+router.post("/getReptile", async (ctx) => {
+  console.log("dirInput", dirInput);
+  let res = {};
+  let list = fs.readFileSync(dirInput, "utf8");
+  list = JSON.parse(list);
+  list.sort((a, b) => {
+    if (a.created_at_ts < b.created_at_ts) return 1;
+    return -1;
+  });
+  res = {
+    list: list,
+    page_total: list.length,
+  };
+  ctx.body = res;
+  // const list = await startReptile();
 });
 
 module.exports = router;
